@@ -1,6 +1,6 @@
-from enum import Enum
+from enum import IntEnum
 
-class Note(Enum):
+class Note(IntEnum):
 	A0 = 21
 	Bb0 = 22
 	B0 = 23
